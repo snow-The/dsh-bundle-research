@@ -1,0 +1,21 @@
+{
+  "name": "@snow-the/dsh-bundle-research",
+  "version": "0.1.0",
+  "private": true,
+  "description": "研究事實層：實驗台、知識圖、書庫、ACP 記憶",
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "engines": {
+    "dsh": ">=0.2.1-rc.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
