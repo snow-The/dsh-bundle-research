@@ -9,9 +9,7 @@
 - insert:
     - id: dsh-research-lab
       name: "@snow-the/dsh-research-lab"
-    - id: dsh-notemap
-      name: '@snow-the/dsh-notemap'
     - id: dsh-alexlib
       name: '@snow-the/dsh-alexlib'
-    - id: dsh-acp-memory
-      name: "@snow-the/dsh-acp-memory"
+    # notemap 與 acp-memory 已於 2026-11-08 併入 @snow-the/dsh-memory（見 dsh-bundle-core）。
+    # 兩者仍是獨立套件、仍在磁碟上，資料也已遷移；要回滾就把它們的 row 加回來。
